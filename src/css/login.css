@@ -1,0 +1,16 @@
+.username{
+    text-align: center; 
+    margin: 12em;
+
+}
+.username button{
+    padding: 0.5    ch;
+    width: 7em;
+    height: 3em;
+}
+.password{
+    padding-top:2em; 
+}
+.error{
+    color: red;
+}
