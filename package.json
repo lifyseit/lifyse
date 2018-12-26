@@ -2,7 +2,9 @@
   "name": "lifyseit",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lifyseit.github.io/lifyseit/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "npm": "^6.4.1",
     "react": "^16.6.3",
     "react-custom-scrollbars": "^4.2.1",
@@ -15,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build" ,
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
